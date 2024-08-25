@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Mini Messageboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mini Messageboard</h1>
+    <% messages.forEach((message,i) => {%>
+    <div class="message-board">
+      <%- include('message',{message}) %>
+      <a href="/message/<%= i %>">Open</a>
+    </div>
+    <%});%>
+    <a href="/new">Add New Message</a>
+  </body>
+</html>
