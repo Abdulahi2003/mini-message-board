@@ -1,1 +1,1 @@
-Mini message board project to utilize the basics of expressjs
+Mini message board project to utilize the basics of expressjs and deploying an app
